@@ -38,7 +38,7 @@ const projectData = [
     id: 4,
     name: 'Portfolio',
     image: require('../../images/image6.png'),
-    link: '',
+    link: 'https://github.com/ankita-0123/portfolio/',
   },
 ];
 
