@@ -6,6 +6,7 @@
   align-items: center;
   font-size: 1rem;
   position: sticky;
+  z-index: 200;
 
   .hide-pages {
     .navbar__container__menu {
@@ -74,6 +75,7 @@
       left: -110%;
       opacity: 1;
       transition: all 1.5s ease;
+      z-index: 200;
 
       .hide-pages {
         .navbar__container__menu {

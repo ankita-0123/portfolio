@@ -93,16 +93,16 @@ const About = () => {
           >
             <div className="about__content__servicesWrapper__innerContent">
               <div>
-                <FaCss3Alt size={50} color="var( ---yellow-theme-main-color)" />
+                <FaCss3Alt size={45} color="var( ---yellow-theme-main-color)" />
               </div>
               <div>
-                <IoLogoJavascript size={50} color="var( ---yellow-theme-main-color)" />
+                <IoLogoJavascript size={45} color="var( ---yellow-theme-main-color)" />
               </div>
               <div>
-                <FaReact size={50} color="var( ---yellow-theme-main-color)" />
+                <FaReact size={45} color="var( ---yellow-theme-main-color)" />
               </div>
               <div>
-                <AiFillHtml5 size={50} color="var( ---yellow-theme-main-color)" />
+                <AiFillHtml5 size={45} color="var( ---yellow-theme-main-color)" />
               </div>
             </div>
           </Animate>

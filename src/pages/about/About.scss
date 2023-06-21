@@ -110,7 +110,7 @@
       }
 
       &__servicesWrapper {
-        margin: 10px 0px;
+        margin: 1px 0px;
 
         &__innerContent {
           width: 300px;
@@ -119,25 +119,25 @@
 
           div:nth-child(1) {
             position: absolute;
-            top: -15%;
-            left: 38%;
+            top: -8%;
+            left: 40%;
           }
 
           div:nth-child(2) {
             position: absolute;
-            right: -11%;
+            right: -8%;
             top: 40%;
           }
 
           div:nth-child(3) {
             position: absolute;
-            bottom: -12%;
+            bottom: -8%;
             left: 40%;
           }
 
           div:nth-child(4) {
             position: absolute;
-            left: -10%;
+            left: -8%;
             top: 40%;
           }
         }

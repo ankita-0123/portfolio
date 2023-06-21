@@ -7,28 +7,28 @@ import './Navbar.scss';
 const data = [
   {
     label: 'HOME',
-    to: '/'
+    to: '/',
   },
   {
     label: 'ABOUT',
-    to: '/about'
+    to: '/about',
   },
   {
     label: 'RESUME',
-    to: '/resume'
+    to: '/resume',
   },
   {
     label: 'SKILLS',
-    to: '/skills'
+    to: '/skills',
   },
   {
     label: 'PROJECT',
-    to: '/project'
+    to: '/project',
   },
   {
     label: 'CONTACT',
-    to: '/contact'
-  }
+    to: '/contact',
+  },
 ];
 
 const Navbar = () => {
@@ -41,6 +41,9 @@ const Navbar = () => {
   };
 
   const handlePageClick = () => {
+    if (toggleIcon) {
+      setToggleIcon(false);
+    }
     setShowPages(!showPages);
   };
 
