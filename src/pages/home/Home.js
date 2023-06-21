@@ -25,12 +25,13 @@ const Home = () => {
         <h1>
           Hii, I'm PragyanParamita
           <br />
+          
           Frontend Developer
         </h1>
       </div>
       <Animate
         play
-        duration={0.5}
+        duration={2.5}
         delay={2}
         start={{
           transform: "translateY(500px)",

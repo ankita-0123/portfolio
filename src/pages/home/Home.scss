@@ -14,12 +14,13 @@
     h1 {
       color: var(---yellow-theme-main-color);
       margin: 0;
-      font-weight: 500;
+      font-weight: 200;
       font-size: 3rem;
-      line-height: 3rem;
+      line-height: 4rem;
       position: relative;
       overflow: hidden;
       white-space: nowrap;
+      
       animation: typingEffectAnimation 10.5s steps(30, end);
     }
   }
