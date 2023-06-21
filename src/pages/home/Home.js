@@ -23,14 +23,14 @@ const Home = () => {
     <section className="home">
       <div className="home__text-wrapper">
         <h1>
-          Hii, I'm Pragyan Paramita Patra
+          Hii, I'm PragyanParamita
           <br />
           Frontend Developer
         </h1>
       </div>
       <Animate
         play
-        duration={1.5}
+        duration={0.5}
         delay={2}
         start={{
           transform: "translateY(500px)",

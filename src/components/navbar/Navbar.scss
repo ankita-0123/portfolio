@@ -19,13 +19,21 @@
     align-items: center;
     width: 100%;
     height: inherit;
-    padding: 0px 20px;
+    padding: 20px 20px;
     flex: 1;
 
     &__logo {
       color: var(---yellow-theme-main-color);
       cursor: pointer;
+    
+    h1{
+      font-family: "Your Font", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #6b06ae;
+
     }
+  }
 
     &__menu {
       display: flex;
