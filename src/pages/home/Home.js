@@ -14,7 +14,8 @@ const Home = () => {
   };
 
   const handleDownloadResume = () => {
-    const resumeUrl = "https://drive.google.com/file/d/1wdairkefjc8qXzDXLFjUYACmrhYs0Y3p/view?usp=drivesdk"; 
+    const resumeUrl =
+      "https://drive.google.com/file/d/1wdairkefjc8qXzDXLFjUYACmrhYs0Y3p/view?usp=drivesdk";
     saveAs(resumeUrl, "Resume.pdf");
   };
 
@@ -44,10 +45,18 @@ const Home = () => {
       </Animate>
       <footer className="home__footer">
         <div className="home__footer__links">
-          <a href="https://github.com/ankita-0123/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/ankita-0123/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub size={20} />
           </a>
-          <a href="https://www.linkedin.com/in/pragyan-paramita-patra-30b7a9232/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/pragyan-paramita-patra-30b7a9232/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin size={20} />
           </a>
           <button className="home__footer__download" onClick={handleDownloadResume}>
